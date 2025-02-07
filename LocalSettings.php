@@ -5371,7 +5371,7 @@ $wgConf->settings += [
 			'create',
 			'edit',
 			'move',
-			'upload',f
+			'upload',
 		],
 	],
 
