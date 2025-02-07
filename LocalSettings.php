@@ -5308,6 +5308,9 @@ $wgConf->settings += [
 			'editarchiveprotected',
 			'editofficialprotected',
 		],
+		'+needforspeedwiki' => [
+			'edittemplateprotected'
+		],
 		'+nicolopediawiki' => [
 			'editextendedconfirmedprotected',
 			'edittemplateprotected',
@@ -5353,6 +5356,9 @@ $wgConf->settings += [
 			'extendedconfirmed',
 			'owner',
 		],
+		'+watchdogswiki' => [
+			'edittemplateprotected'
+		],
 		'+ysmwikiwiki' => [
 			'editextendedconfirmedprotected',
 		],
@@ -5365,7 +5371,7 @@ $wgConf->settings += [
 			'create',
 			'edit',
 			'move',
-			'upload',
+			'upload',f
 		],
 	],
 
@@ -5444,6 +5450,9 @@ $wgConf->settings += [
 			'editarchiveprotected',
 			'editofficialprotected',
 		],
+		'needforspeedwiki' => [
+			'templateeditor',
+		],
 		'nicolopediawiki' => [
 			'editextendedconfirmedprotected',
 			'edittemplateprotected',
@@ -5477,6 +5486,9 @@ $wgConf->settings += [
 		],
 		'theredpionnerwiki' => [
 			'extendedconfirmed',
+			'templateeditor',
+		],
+		'watchdogswiki' => [
 			'templateeditor',
 		],
 		'ysmwikiwiki' => [
